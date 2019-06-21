@@ -1,0 +1,22 @@
+{
+    "name": "JIRA for ALU",
+    "manifest_version": 2,
+    "version": "1.0",
+    "browser_action": {
+        "default_title": "JIRA for ALU",
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://alu.atlassian.net/*"
+            ],
+            "css": [
+                "content_scripts.css"
+            ],
+            "js": [
+                "content_scripts.js"
+            ]
+        }
+    ]
+}
