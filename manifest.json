@@ -4,7 +4,7 @@
     "version": "1.0",
     "browser_action": {
         "default_title": "JIRA for ALU",
-        "default_popup": "popup.html"
+        "default_popup": "html/popup.html"
     },
     "content_scripts": [
         {
