@@ -5,15 +5,16 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
+    <script src="./popup.js"></script>
 </head>
 
 <body>
     <form class="form-hour" id="submitForm">
-        <label for="hourPlus" class="sr-only">追加時間</label>
-        <input type="number" id="hourPlus" class="form-control" placeholder="追加時間">
-        <label for="hourMinus" class="sr-only">追加時間</label>
-        <input type="number" id="hourMinus" class="form-control" placeholder="差引時間">
-        <button class="btn btn-xs btn-primary btn-block submit-button" type="submit">登録</button>
+        <label for="hourPlus" class="sr-only">時間調整</label>
+        <input type="number" id="hour" class="form-control" placeholder="時間調整">
+        <label for="hourMinus" class="sr-only">利用可能ポイント</label>
+        <input type="number" id="point" class="form-control" placeholder="利用可能ポイント">
+        <button class="btn btn-xs btn-primary btn-block submit-button" type="submit" id="sendHour">登録</button>
     </form>
 </body>
 
